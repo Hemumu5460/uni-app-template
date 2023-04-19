@@ -9,6 +9,7 @@
   onHide(() => {
     console.log("App Hide")
   })
+  console.log(import.meta.env)
 </script>
 <style lang="scss">
   @import "./static/css/mixin.scss";
