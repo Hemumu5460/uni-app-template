@@ -1,0 +1,90 @@
+.popup-success {
+  color: #fff;
+  background-color: #e1f3d8;
+}
+
+.popup-warn {
+  color: #fff;
+  background-color: #faecd8;
+}
+
+.popup-error {
+  color: #fff;
+  background-color: #fde2e2;
+}
+
+.popup-info {
+  color: #fff;
+  background-color: #f2f6fc;
+}
+
+.login-mask {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  position: fixed
+}
+
+.pd-y-12 {
+  padding: 0 12px;
+}
+
+.submit {
+  background: linear-gradient(131deg, #F0CD8E 0%, #D9A661 100%);
+}
+
+.cancel {
+  background: #C8C8C8;
+  color: #FFFFFF;
+}
+
+.wx-btn {
+  background: linear-gradient(138deg, #51E282 0%, #0DC57E 100%);
+}
+
+.wx-btn::after,
+.submit::after,
+.cancel::after {
+  display: none;
+}
+
+.omit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.press {
+  background: rgba(245, 245, 245, 0.7) !important;
+  border-radius: 8px;
+}
+
+.popup-content {
+  align-items: center;
+  justify-content: center;
+  // padding: 15px;
+  // height: 50vh;
+  background-color: #fff;
+  border-radius: 20px 20px 0px 0px;
+  overflow: auto;
+}
+
+.popup-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f6;
+  padding: 10px 8px;
+
+  .cancel-btn {
+    padding: 4px;
+    color: $uni-text-color-info;
+  }
+
+  .confirm-btn {
+    padding: 4px;
+    color: $uni-text-color-primary;
+  }
+}

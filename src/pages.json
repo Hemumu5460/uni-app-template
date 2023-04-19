@@ -1,0 +1,81 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "易米E+"
+			}
+		},
+		{
+			"path": "pages/apply/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "应用"
+			}
+		},
+		{
+			"path": "pages/bill/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "账单"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#33322E",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "60px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"selectedIconPath": "static/image/select-home.png",
+				"iconPath": "static/image/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/apply/index",
+				"selectedIconPath": "static/image/select-apply.png",
+				"iconPath": "static/image/apply.png",
+				"text": "应用"
+			},
+			{
+				"pagePath": "pages/bill/index",
+				"selectedIconPath": "static/image/select-bill.png",
+				"iconPath": "static/image/bill.png",
+				"text": "账单"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"selectedIconPath": "static/image/select-my.png",
+				"iconPath": "static/image/my.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "易米E+",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
