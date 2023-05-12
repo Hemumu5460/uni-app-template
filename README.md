@@ -8,7 +8,7 @@ uniapp ： vue3 + ts + vite + pinia + sass
 
 #### 启动教程
 
-1.  npm run install/yarn add
+1.  npm run install/yarn
 2.  npm run dev:h5/yarn dev:h5
 3.  其他启动命令查看 package.json 文件
 
@@ -169,7 +169,6 @@ export default defineComponent({
 [文档](https://uniapp.dcloud.io/collocation/pages.html#easycom)
 
 - 第一步在 src/components/组件名/组件名.vue 的方式编写组件
-- 第二步在 src/components.d.ts 给组件添加 ts 智能提示
 
 # style 标签中使用 js 变量
 
