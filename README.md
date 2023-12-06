@@ -8,8 +8,8 @@ uniapp ： vue3 + ts + vite + pinia + sass
 
 #### 启动教程
 
-1.  npm run install/yarn
-2.  npm run dev:h5/yarn dev:h5
+1.  pnpm i
+2.  pnpm dev:h5
 3.  其他启动命令查看 package.json 文件
 
 其他插件：
