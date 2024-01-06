@@ -9,7 +9,7 @@ export interface Result {
   msg: string
 }
 export interface ResultData<T> extends Result {
-  data: any | T[]
+  data: T
 }
 export interface RequestConfig extends Request {
 

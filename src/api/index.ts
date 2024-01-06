@@ -69,10 +69,10 @@ const requestHttp = async <T>(options: UniApp.RequestOptions): Promise<ResultDat
   })
 }
 export default {
-  GET: (options: { url: string, data?: object }) => {
+  GET: <T>(options: { url: string, data?: object }): Promise<ResultData<T>> => {
     return requestHttp({ url: options.url, method: RequestEnum.GET, data: options.data })
   },
-  POST: (options: { url: string, data?: object }) => {
+  POST: <T>(options: { url: string, data?: object }): Promise<ResultData<T>> => {
     return requestHttp({ url: options.url, method: RequestEnum.POST, data: options.data })
   }
 } 
